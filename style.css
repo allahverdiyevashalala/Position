@@ -27,4 +27,31 @@ a:hover {
   position: absolute;
   bottom: 90px;
   left: 140px;
+}
+
+#green {
+  padding: 120px 0;
+}
+#green .box {
+  position: relative;
+}
+#green .box .minibox {
+  background-color: #478f71;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#green .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#green .box .box1 {
+  position: absolute;
+  top: 0;
+  left: 140px;
+}
+#green .box .box3 {
+  position: absolute;
+  bottom: 90px;
+  left: 140px;
 }/*# sourceMappingURL=style.css.map */
