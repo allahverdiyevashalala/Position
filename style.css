@@ -54,4 +54,26 @@ a:hover {
   position: absolute;
   bottom: 90px;
   left: 140px;
+}
+
+#pink {
+  padding: 0 0 120px;
+}
+#pink .box {
+  position: relative;
+}
+#pink .box .minibox {
+  background-color: #d38fdc;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#pink .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#pink .box .box3 {
+  position: absolute;
+  bottom: 0;
+  left: 270px;
 }/*# sourceMappingURL=style.css.map */
