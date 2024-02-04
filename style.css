@@ -10,6 +10,9 @@ a:hover {
   color: black;
 }
 
+#blue {
+  padding: 0 0 130px;
+}
 #blue .box {
   position: relative;
 }
