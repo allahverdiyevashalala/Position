@@ -76,4 +76,30 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 270px;
+}
+
+#verypink {
+  padding: 0 0 120px;
+}
+#verypink .box {
+  position: relative;
+}
+#verypink .box p {
+  font-size: 15px;
+  width: 595px;
+}
+#verypink .box .minibox {
+  background-color: #d38fdc;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#verypink .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#verypink .box .box1 {
+  position: absolute;
+  top: 130px;
+  right: 0;
 }/*# sourceMappingURL=style.css.map */
