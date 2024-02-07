@@ -235,12 +235,13 @@ a:hover {
 }
 
 #darkblue {
-  padding: 30px 0;
+  padding: 150px 0 60px;
 }
 #darkblue .box {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   width: 200px;
   height: 200px;
   background-color: #4876c5;
@@ -250,10 +251,12 @@ a:hover {
   width: 100px;
   height: 100px;
   transition: 2s;
+  padding-top: 40px;
 }
 #darkblue .box .minibox h1 {
   color: white;
   font-size: 18px;
+  text-align: center;
 }
 #darkblue .box .minibox:hover {
   position: absolute;
@@ -266,7 +269,7 @@ a:hover {
 }
 #demo .box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 #demo .box .minibox {
   background-color: #835e90;
