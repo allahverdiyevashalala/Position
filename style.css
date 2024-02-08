@@ -309,4 +309,34 @@ a:hover {
   #demo .box .minibox h1 {
     font-size: 10px;
   }
+}
+
+#brown {
+  padding: 60px 0;
+}
+#brown .box {
+  display: flex;
+  justify-content: space-around;
+}
+#brown .box .minibox {
+  background-color: #8d6d3e;
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  transition: 2s;
+}
+#brown .box .minibox h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#brown .box .minibox:hover {
+  border-radius: 40px;
+}
+@media screen and (max-width: 800px) {
+  #brown .box .minibox {
+    width: 50px;
+    height: 50px;
+    background-color: #c4d17d;
+  }
 }/*# sourceMappingURL=style.css.map */
