@@ -362,4 +362,27 @@ a:hover {
   position: absolute;
   top: 565px;
   left: 199px;
+}
+
+#greentext {
+  padding: 60px 0;
+}
+#greentext .box {
+  position: relative;
+}
+#greentext .box .minibox {
+  width: 200px;
+  height: 130px;
+  background-color: #7cb583;
+  margin: 15px;
+}
+#greentext .box .minibox h1 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+#greentext .box .box2 {
+  position: absolute;
+  top: 130px;
+  left: 199px;
 }/*# sourceMappingURL=style.css.map */
