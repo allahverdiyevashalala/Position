@@ -339,4 +339,27 @@ a:hover {
     height: 50px;
     background-color: #c4d17d;
   }
+}
+
+#text {
+  padding: 50px 0;
+}
+#text .box {
+  position: relative;
+}
+#text .box .minibox {
+  width: 200px;
+  height: 130px;
+  background-color: #5978b7;
+  margin: 15px;
+}
+#text .box .minibox h1 {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+#text .box .box5 {
+  position: absolute;
+  top: 565px;
+  left: 199px;
 }/*# sourceMappingURL=style.css.map */
