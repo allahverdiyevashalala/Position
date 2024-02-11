@@ -315,6 +315,7 @@ a:hover {
 }
 #brown .box {
   display: flex;
+  text-align: center;
   justify-content: space-around;
 }
 #brown .box .minibox {
@@ -323,20 +324,25 @@ a:hover {
   height: 180px;
   border-radius: 90px;
   transition: 2s;
+  line-height: 162px;
 }
 #brown .box .minibox h1 {
   color: white;
   font-size: 20px;
-  text-align: center;
 }
 #brown .box .minibox:hover {
   border-radius: 40px;
 }
 @media screen and (max-width: 800px) {
+  #brown .box {
+    display: flex;
+    flex-flow: column;
+  }
   #brown .box .minibox {
     width: 50px;
     height: 50px;
     background-color: #c4d17d;
+    line-height: 50px;
   }
 }
 
