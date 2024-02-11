@@ -239,29 +239,28 @@ a:hover {
 }
 #darkblue .box {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
   width: 200px;
   height: 200px;
-  background-color: #4876c5;
+  background-color: #4c74bf;
 }
 #darkblue .box .minibox {
   background-color: #2d559b;
   width: 100px;
   height: 100px;
   transition: 2s;
-  padding-top: 40px;
 }
 #darkblue .box .minibox h1 {
   color: white;
   font-size: 18px;
-  text-align: center;
+  margin: 40px;
 }
 #darkblue .box .minibox:hover {
-  position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
+  padding: 20px;
 }
 
 #demo {
