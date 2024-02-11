@@ -334,15 +334,17 @@ a:hover {
   border-radius: 40px;
 }
 @media screen and (max-width: 800px) {
-  #brown .box {
-    display: flex;
-    flex-flow: column;
-  }
   #brown .box .minibox {
     width: 50px;
     height: 50px;
     background-color: #c4d17d;
     line-height: 50px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #brown .box {
+    display: flex;
+    flex-flow: column;
   }
 }
 
@@ -377,18 +379,19 @@ a:hover {
   position: relative;
 }
 #greentext .box .minibox {
-  width: 200px;
-  height: 130px;
+  width: 300px;
+  height: 180px;
   background-color: #7cb583;
-  margin: 15px;
+  margin: 15px 0;
 }
 #greentext .box .minibox h1 {
   color: white;
+  font-size: 22px;
   text-align: center;
-  padding: 50px;
+  padding: 80px;
 }
 #greentext .box .box2 {
   position: absolute;
-  top: 130px;
-  left: 199px;
+  top: 180px;
+  left: 299px;
 }/*# sourceMappingURL=style.css.map */
